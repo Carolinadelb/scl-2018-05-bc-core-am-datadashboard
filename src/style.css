@@ -306,8 +306,27 @@ li{
     }
 
     table {
-        border: solid black;
-    }
+        background-color: #EEEEEE;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+      }
+    
+      th {
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-weight: bold;
+          background-color: #FFE521;
+      }
+      td {
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+     
+            
+
+      
+
+    
 
     
 

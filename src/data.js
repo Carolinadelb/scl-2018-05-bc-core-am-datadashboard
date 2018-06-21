@@ -23,8 +23,8 @@ const renderUsers = data => {
       //para imprimir todos los nombres dentro del container (root) de html, uno tras otro
     //para imprimir todos los nombres dentro del container (root) de html, uno tras otro
       if (element.role === 'student') {  //para que solo imprima las estudiantes
-        container.innerHTML += `<p>${element.name}</p>`;
-        containerRole.innerHTML += `<p>${element.role}</p>`;
+        container.innerHTML += `<p>${element.name.toUpperCase()}</p>`;
+        containerRole.innerHTML += `<p>Estudiante</p>`; 
       }
     })
     return render;
