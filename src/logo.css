@@ -1,8 +1,9 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(../login/assets/LABORATORIA-800x500_c.jpg);
+  background: url(../src/assests/img/lab1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 .container{
