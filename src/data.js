@@ -8,12 +8,21 @@ fetch(usersJSON)
 //esto nunca cambia
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  //console.log(data);
   //esta es la función que llamamos
   renderUsers(data);
 })
-
-
+//llamando al JSON progress
+const progressJSON = '../data/cohorts/lim-2018-03-pre-core-pw/progress.json';
+let arrayProgress = [];
+fetch(progressJSON)
+.then(response => response.json())
+.then(data => {
+  arrayProgress = Object.entries(data);
+  console.log(arrayProgress);
+  //esta es la función que llamamos
+  renderUsers(data);
+})
 
 //función
 const renderUsers = data => {
