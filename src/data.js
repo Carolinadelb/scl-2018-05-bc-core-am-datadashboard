@@ -39,3 +39,21 @@ const renderUsers = data => {
     return render;
   });
 }
+/*
+const percent = document.getElementById('percentBox');
+
+const renderUsers = data => {
+  studentList.addEventListener('click', () => {
+    //element representa cada uno de los elementos del arreglo
+    const render = data.forEach(element => {
+      //para imprimir todos los nombres dentro del container (root) de html, uno tras otro
+    //para imprimir todos los nombres dentro del container (root) de html, uno tras otro
+      if (element.percent) {  
+        container.innerHTML += `<p>${element.percent}</p>`;
+       
+      }
+    })
+    return render;
+  });
+}
+*/  
